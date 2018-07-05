@@ -19,7 +19,7 @@
   .main_item{
     height:300px;
     grid-template-columns: 1fr 60px;
-    grid-template-rows: 1fr 1fr 35px 45px 15px;
+    grid-template-rows: 1fr 1fr 50px 65px 15px;
   }
 
   .item_text{
