@@ -68,12 +68,14 @@ body{
   grid-column: 3/4;
   grid-row: 1/2;
   width: 100%;
+  padding-top: 20px;  
 }
 
 .nav_bar{
   grid-column: 3/4;
   grid-row: 3/4;
   width: 100%;
+  padding-top: 35px;
 }
 
 .fa-briefcase-medical{
@@ -132,7 +134,12 @@ body{
   grid-template-columns: 1fr 60px;
   grid-template-rows: 60px 60px 36px 45px 15px;
   height: 100%;
-
+  
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+   transition: all 1s ease-in;
+  
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -250,7 +257,7 @@ main > a{
 .main_item:hover{
   text-decoration: none;
   cursor: pointer;
-  background-size: 240% 180%;
+  background-size: 220% 165%;
 }
 
 .item_wrp_rating,
